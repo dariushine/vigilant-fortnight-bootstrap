@@ -1,0 +1,26 @@
+{
+  "name": "vigilant-fortnight-bootstrap",
+  "version": "1.0.0",
+  "description": "It's a website using bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariushine/vigilant-fortnight-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dariushine/vigilant-fortnight-bootstrap/issues"
+  },
+  "homepage": "https://github.com/dariushine/vigilant-fortnight-bootstrap#readme",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "eslint": "^6.4.0",
+    "htmlhint": "^0.11.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

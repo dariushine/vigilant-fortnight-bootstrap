@@ -1,2 +1,2 @@
 # vigilant-fortnight
-It's a website made in bootstrap
+It's a website using bootstrap.
