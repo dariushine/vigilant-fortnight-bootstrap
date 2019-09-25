@@ -1,12 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+  <title>Vigilant Fortnight</title>
 </head>
+
 <body>
-  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a href="#" class="navbar-brand">Vigilant Fortnight</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Link 1</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Link 2</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Link 3</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Link 4</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center 1 mb-0">
+    <h1 class="display-4">Find your next home</h1>
+    <p class="lead">This might be the next most important step in your life.</p>
+  </div>
+
+  <section class="bg-dark">
+    <div class="container py-4">
+      <form action="" method="get">
+        <div class="row">
+          <div class="col-lg-9">
+            <input type="text" class="form-control" id="listing" name="listing" placeholder="Keywords or Listing ID">
+          </div>
+          <div class="col-lg-3 d-none d-lg-block">
+            <button type="submit" class="btn btn-secondary btn-block">Search</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mt-3">
+            <select name="city" id="city" class="form-control">
+              <option value="none">City</option>
+              <option value="there">There</option>
+              <option value="here">Here</option>
+            </select>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-3">
+            <select name="type" id="type" class="form-control">
+              <option value="none">Type</option>
+              <option value="apartment">Apartment</option>
+              <option value="house">House</option>
+            </select>
+          </div>
+          <div class="col-sm-6 col-lg-2 mt-3">
+            <input type="number" min="1" class="form-control" id="bedrooms" name="bedrooms" placeholder="Bedrooms">
+          </div>
+          <div class="col-sm-6 col-lg-2 mt-3">
+            <input type="number" min="1" class="form-control" id="bathrooms" name="bathrooms" placeholder="Bathrooms">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-secondary btn-block mt-3 d-lg-none">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h1 class="text-center mt-5">Our listing</h1>
+      <p class="lead text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur blanditiis ratione assumenda. Nemo
+        tempora
+        fugit, sint eius doloremque rem repellendus.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Buy</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur blanditiis
+                ratione assumenda.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-3 mt-lg-0">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Sell</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur blanditiis
+                ratione assumenda.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="featured">
+    <div class="container">
+      <h1 class="text-center">Featured</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://placeholder.pics/svg/400x250" class="img-fluid mt-4 mb-3 mx-auto d-block" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores officiis eaque optio ut quos ratione
+            impedit, dicta alias perferendis.</p>
+            <ul>
+                <li>City: There</li>
+                <li>Bedrooms: 1</li>
+                <li>Bathrooms: 1</li>
+                <li>Area: 30m²</li>
+              </ul>
+          <a href="#" class="btn btn-block btn-primary">More info</a>
+        </div>
+        <div class="col-md-6">
+            <img src="https://placeholder.pics/svg/400x250" class="img-fluid mt-4 mb-3 mx-auto d-block" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores officiis eaque optio ut quos ratione
+            impedit, dicta alias perferendis.</p>
+          <ul>
+            <li>City: There</li>
+            <li>Bedrooms: 1</li>
+            <li>Bathrooms: 1</li>
+            <li>Area: 30m²</li>
+          </ul>
+          <a href="#" class="btn btn-block btn-primary">More info</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+            <img src="https://placeholder.pics/svg/400x250" class="img-fluid mt-4 mb-3 mx-auto d-block" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores officiis eaque optio ut quos ratione
+            impedit, dicta alias perferendis.</p>
+            <ul>
+                <li>City: There</li>
+                <li>Bedrooms: 1</li>
+                <li>Bathrooms: 1</li>
+                <li>Area: 30m²</li>
+              </ul>
+          <a href="#" class="btn btn-block btn-primary">More info</a>
+          
+        </div>
+        <div class="col-md-6">
+            <img src="https://placeholder.pics/svg/400x250" class="img-fluid mt-4 mb-3 mx-auto d-block" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores officiis eaque optio ut quos ratione
+            impedit, dicta alias perferendis.</p>
+            <ul>
+                <li>City: There</li>
+                <li>Bedrooms: 1</li>
+                <li>Bathrooms: 1</li>
+                <li>Area: 30m²</li>
+              </ul>
+          <a href="#" class="btn btn-block btn-primary">More info</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1 class="text-center">Contact us</h1>
+  </section>
+
+  <footer class="text-center">
+    <p>Copyright Frederic Lopez 2019</p>
+  </footer>
+  <script src="./vendor/jquery/jquery.min.js"></script>
+  <script src="./vendor/popper.js/popper.min.js"></script>
+  <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
