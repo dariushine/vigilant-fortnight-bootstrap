@@ -38,11 +38,13 @@
     </div>
   </nav>
 
-  <div class="jumbotron text-center 1 mb-0 d-flex flex-column justify-content-center"
+  <div class="jumbotron jumbotron-fluid text-center 1 mb-0 d-flex flex-column justify-content-center"
     style="min-height: calc(100vh - 56px);">
-    <h1 class="display-3 text-light">Buy and sell high value properties</h1>
-    <p class="lead text-light">Find the place that you will call home</p>
-    <a class="text-secondary" href="#search-form">Search now</a>
+    <div class="container">
+      <h1 class="display-3 text-light">Buy and sell high value properties</h1>
+      <p class="lead text-light">Find the place that you will call home</p>
+      <a class="text-secondary" href="#search-form">Search now</a>
+    </div>
   </div>
 
   <section id="search-form" class="bg-dark">
@@ -64,6 +66,7 @@
               <option value="here">Here</option>
             </select>
           </div>
+
           <div class="col-lg-4 col-md-6 mt-3">
             <select name="type" id="type" class="form-control">
               <option value="none">Type</option>
@@ -144,47 +147,43 @@
   </section>
 
   <section id="more" class="bg-dark">
-      <div class="container py-4 mt-5 text-center">
-        <h4 class="text-light">Not what you're looking for? See our full listing</h4>
-        <a href="#" class="btn btn-primary">View</a>
-        </div>
+    <div class="container py-4 mt-5 text-center">
+      <h4 class="text-light">Not what you're looking for? See our full listing</h4>
+      <a href="#" class="btn btn-primary">View</a>
+    </div>
   </section>
 
   <section id="services">
     <div class="container">
-      <h1 class="text-center mt-5">Our listing</h1>
+      <h1 class="text-center mt-5">Our services</h1>
       <p class="lead text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur blanditiis ratione assumenda. Nemo
         tempora
         fugit, sint eius doloremque rem repellendus.</p>
       <div class="row">
         <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title">Buy</h3>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur blanditiis
-                ratione assumenda.</p>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-              </ul>
-            </div>
-          </div>
+          <h3>Buy</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur blanditiis
+            ratione assumenda.</p>
+          <ul>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+          </ul>
         </div>
-        <div class="col-md-6 mt-3 mt-lg-0">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title">Sell</h3>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur blanditiis
-                ratione assumenda.</p>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-                <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-              </ul>
-            </div>
-          </div>
+        <div class="col-md-6"></div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <h3>Sell</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur blanditiis
+            ratione assumenda.</p>
+          <ul>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -220,8 +219,8 @@
             <div class="form-row">
               <div class="form-group col-md-12">
                 <label for="contact-subject">Email address:</label>
-                <input class="form-control" type="text" name="email" id="contact-email"
-                  placeholder="Your email address" required>
+                <input class="form-control" type="text" name="email" id="contact-email" placeholder="Your email address"
+                  required>
                 <small id="emailHelp" class="form-text text-muted">We'll use your email to contact you back.</small>
               </div>
             </div>
@@ -235,7 +234,7 @@
                   placeholder="Your message" required></textarea>
               </div>
             </div>
-            
+
 
             <button type="submit" class="btn btn-primary btn-block">Send message</button>
 
